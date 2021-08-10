@@ -42,6 +42,7 @@ def _flip(bit):
 def sortList(alist):
     alist.sort(key = lambda chromosome: chromosome.calcValue())
     return alist
+
 class Population:
     
     def __init__(self, abundance, limits, precision, function, elitesNumber = 0):
